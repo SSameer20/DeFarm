@@ -16,19 +16,3 @@ This dApp enables users to connect wallets, stake $AGRO tokens, vote on crop str
 
 ---
 
-## 📦 Project Structure
-
-```bash
-web/
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── hooks/
-│   ├── contracts/
-│   ├── services/
-│   └── App.tsx
-├── tailwind.config.js
-├── vite.config.ts
-├── package.json
-└── README.md
