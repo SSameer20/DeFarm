@@ -1,44 +1,46 @@
-# Code of Conduct
+# Code of Conduct for Deharvest
 
 ## Our Pledge
 
-We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, education, level of experience, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+We, as contributors and maintainers of **Deharvest**, pledge to foster a respectful, inclusive, and harassment-free experience for everyone.
 
-We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
+We are committed to making participation in our project a welcoming and supportive experience for people of all backgrounds and skill levels.
 
 ## Our Standards
 
-Examples of behavior that contributes to a positive environment for our community include:
+Examples of behavior that contributes to a positive environment include:
 
 - Using welcoming and inclusive language
-- Being respectful of differing viewpoints and experiences
-- Gracefully accepting constructive criticism
-- Showing empathy and kindness toward other community members
+- Being respectful of different viewpoints and experiences
+- Giving and gracefully accepting constructive feedback
+- Showing empathy and kindness to others
 
 Examples of unacceptable behavior include:
 
-- The use of sexualized language or imagery and unwelcome sexual attention or advances
-- Trolling, insulting or derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others’ private information, such as a physical or email address, without their explicit permission
-- Other conduct which could reasonably be considered inappropriate in a professional setting
+- Discriminatory or derogatory comments
+- Harassment, intimidation, or threats
+- Publishing others’ private information without consent
+- Any behavior that would be considered inappropriate in a professional setting
 
 ## Enforcement Responsibilities
 
-Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior they deem inappropriate, threatening, offensive, or harmful.
+The maintainers of Deharvest are responsible for clarifying the standards of acceptable behavior and will take appropriate and fair corrective action in response to any instances of unacceptable behavior.
 
 ## Scope
 
-This Code of Conduct applies within all community spaces and also applies when an individual is officially representing the project or its community.
+This Code of Conduct applies within project spaces (e.g., GitHub, discussions, PRs, issues) and in public spaces when an individual is representing the project or its community.
+
+## Reporting Issues
+
+If you witness or experience any unacceptable behavior, please report it to the maintainers at:
+
+📧 **deharvest.team@gmail.com**  
+(All reports will be kept confidential and reviewed with discretion.)
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at **[your-email@example.com]**. All complaints will be reviewed and investigated promptly and fairly.
-
-All community leaders are obligated to respect the privacy and security of the reporter of any incident.
+Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent consequences determined by other project members.
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 2.1.
-
-[homepage]: https://www.contributor-covenant.org
+This Code of Conduct is adapted from the [Contributor Covenant]
