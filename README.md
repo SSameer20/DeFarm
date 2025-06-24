@@ -8,7 +8,7 @@ This dApp enables users to connect wallets, stake $AGRO tokens, vote on crop str
 ## 🚀 Features
 
 - 🔐 **Wallet Authentication** (MetaMask / Phantom / Solflare)
-- 💸 **Stake $AGRO Tokens** to support real-world farming
+- 💸 **Stake $DHAR Tokens** to support real-world farming
 - 📈 **View Farming Yield & Profit Distribution**
 - 🗳️ **DAO Voting** on crop types and farming strategies
 - 🛒 **Agro Marketplace**: Buy produce using $AGRO at discounted prices
