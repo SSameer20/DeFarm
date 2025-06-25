@@ -4,7 +4,7 @@ function Navigation() {
     <nav className="glass-navbar">
       <div className="logo">DeHarvest</div>
       <ul className="nav-menu">
-        <li>
+        {/* <li>
           <a href="#home">Home</a>
         </li>
         <li>
@@ -18,6 +18,9 @@ function Navigation() {
         </li>
         <li>
           <a href="#marketplace">Marketplace</a>
+        </li> */}
+        <li>
+          <a href="#wallet">connect</a>
         </li>
       </ul>
     </nav>
