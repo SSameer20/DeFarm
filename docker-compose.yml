@@ -1,0 +1,10 @@
+services:
+  server:
+    image: deharvest/server:0.2
+    container_name: deharvest_server
+    ports: 8080:8080
+    restart: unless-stopped
+
+networks:
+  default:
+    driver: bridge

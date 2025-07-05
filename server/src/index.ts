@@ -1,10 +1,12 @@
-import express from 'express';
+import express from "express";
+import dotenv from "dotenv";
+dotenv.config();
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 8080;
 
-app.get('/', (req, res) => {
-  res.send('Hello from TypeScript backend!');
+app.get("/", (_req, res) => {
+  res.send("Hello from TypeScript backend!");
 });
 
 app.listen(PORT, () => {

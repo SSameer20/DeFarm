@@ -1,27 +1,21 @@
+import Hero from "../components/Hero";
 import Navigation from "../components/Navigation";
-import background from "../assets/background.jpg";
 import "../styles/app.css";
 function App() {
   return (
     <div className="app">
       <Navigation />
-      <div className="hero-section">
-        <div className="hero-content">
-          <h1>Grow With the Future of Farming</h1>
-          <p>
-            DeHarvest is the decentralized gateway to agricultural investment,
-            yield sharing, and farm-to-table commerce all powered by blockchain.
-          </p>
-          <button className="cta-button">Airdrop</button>
-        </div>
+      <div className="h-screen w-screen relative p-20">
+        <Hero />
       </div>
+
       <div className="features">
         <h2
           style={{
             gridColumn: "1/-1",
             textAlign: "center",
             marginBottom: "2rem",
-            color: "black",
+            color: "white",
             fontSize: "2rem",
           }}
         >
