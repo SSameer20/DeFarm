@@ -6,7 +6,7 @@ export default function Hero() {
         "relative w-full h-full overflow-hidden flex items-center justify-start p-20"
       }
     >
-      <div className="absolute hero-content flex flex-col items-start justify-center h-1/2 w-1/2 px-5 bg-red-300 text-white text-center">
+      <div className="absolute hero-content flex flex-col items-start justify-center h-1/2 w-1/2 px-5 bg-red-300 text-white text-left">
         <h1>
           Grow With the <span className="text-green-400">Future</span> of
           Farming
