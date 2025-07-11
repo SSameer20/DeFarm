@@ -1,12 +1,29 @@
-# React + Vite
+# 🌾 DeHarvest Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend client for the DeHarvest platform — a decentralized, blockchain-powered agricultural investment and profit-sharing dApp.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Wallet authentication (Phantom and others)
+- Stake $DHAR tokens to support real-world farming
+- View farming yield & profit distribution
+- DAO voting on crop types and strategies
+- Agro Marketplace: Buy produce using $AGRO at discounted prices
+- Transparent on-chain records
 
-## Expanding the ESLint configuration
+## 🛠️ Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Install dependencies
+
+```sh
+npm install
+# or
+yarn install
+```
+
+MIT License © 2025 0xLabs-Org
