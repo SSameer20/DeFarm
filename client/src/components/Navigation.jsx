@@ -19,9 +19,7 @@ function Navigation() {
           colors={[1, 2, 3, 1, 2, 3, 1, 4]}
         /> */}
 
-        <li>
-          <a href="/">connect</a>
-        </li>
+        <button className="connect-btn">Connect</button>
       </ul>
     </nav>
   );
