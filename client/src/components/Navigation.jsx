@@ -1,9 +1,8 @@
 import "../styles/navigation.css";
-import swal from "sweetalert";
-import { navigationMenu } from "../utils/types";
-import GooeyNav from "./ui/AnimatedNavigation";
+import { useAlert } from "../utils/context/AlertContext";
 
 function Navigation() {
+  const { showAlert } = useAlert();
   return (
     <nav className="glass-navbar">
       <div className="logo">DeHarvest</div>
@@ -19,7 +18,14 @@ function Navigation() {
           colors={[1, 2, 3, 1, 2, 3, 1, 4]}
         /> */}
 
-        <button className="connect-btn">Connect</button>
+        <button
+          className="connect-btn"
+          onClick={() =>
+            showAlert("wallet connection will enable soon", "info")
+          }
+        >
+          Connect
+        </button>
       </ul>
     </nav>
   );

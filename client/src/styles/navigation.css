@@ -1,20 +1,20 @@
 /* Base Reset */
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 /* Navbar Container */
 .glass-navbar {
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
   background: transparent;
-  backdrop-filter: blur(1px);
-  -webkit-backdrop-filter: blur(12px);
+  /* backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(12px); */
   /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
   display: flex;
   justify-content: space-between;
@@ -64,17 +64,6 @@
 .nav-menu li a[href="#wallet"]:hover {
   background-color: #0ea5e9;
   color: #fff;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .nav-menu {
-    display: none;
-  }
-
-  .glass-navbar {
-    justify-content: center;
-  }
 }
 
 .connect-btn {
