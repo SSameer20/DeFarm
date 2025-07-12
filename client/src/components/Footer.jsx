@@ -12,7 +12,7 @@ export default function Footer() {
           <a href="/">DeHarvest</a>
         </p>
         <div className="flex flex-col items-center gap-10 opacity-70">
-          <div className="flex items-center gap-10">
+          <div className="flex sm:flex-col items-center gap-10">
             {socialLinks?.map((link) => (
               <a
                 key={link.name}
