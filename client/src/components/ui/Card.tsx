@@ -1,11 +1,10 @@
-import "../../styles/app.css"
+import "../../styles/app.css";
 
-export default function Card({title, description, key}) {
+export default function Card({ title, description, key }) {
   return (
     <div className="feature" key={key}>
-          <h2>{title}</h2>
-          <p>
-           {description}</p>
+      <p className="card-title">{title}</p>
+      <p>{description}</p>
     </div>
-  )
+  );
 }

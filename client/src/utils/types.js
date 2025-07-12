@@ -11,16 +11,7 @@ export const features = [
     description:
       "Securely log in using Phantom or other supported wallets to manage your DeHarvest experience.",
   },
-  {
-    title: "Stake Tokens",
-    description:
-      "Support real-world sustainable farming by staking your $DHAR tokens and earn yield from crop profits.",
-  },
-  {
-    title: "Yield Dashboard",
-    description:
-      "Track real-time crop performance, revenue generated, and distribution metrics — all transparently recorded on-chain.",
-  },
+
   {
     title: "DAO Governance",
     description:
@@ -30,11 +21,6 @@ export const features = [
     title: "Agro Marketplace",
     description:
       "Buy organic, blockchain-verified produce using $AGRO tokens at discounted rates — straight from the farm to your wallet.",
-  },
-  {
-    title: "On-Chain Transparency",
-    description:
-      "From seed to sale, every transaction, yield, and distribution is recorded on-chain for full transparency and traceability.",
   },
 ];
 
