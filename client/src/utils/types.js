@@ -1,3 +1,10 @@
+import {
+  FaXTwitter,
+  FaInstagram,
+  FaLinkedinIn,
+  FaDiscord,
+  FaGithub,
+} from "react-icons/fa6";
 export const features = [
   {
     title: "Wallet Authentication",
@@ -39,15 +46,23 @@ export const navigationMenu = [
 
 export const socialLinks = [
   {
-    name: "x",
-    link: "https://github.com/0xLabs-org/DeHarvest",
-  },
-  {
-    name: "instagram",
+    name: "Instagram",
     link: "https://www.instagram.com/deharvest_",
+    icon: FaInstagram,
   },
   {
-    name: "linkedin",
+    name: "Linkedin",
     link: "https://www.linkedin.com/company/99176972/",
+    icon: FaLinkedinIn,
+  },
+  {
+    name: "Discord",
+    link: "https://discord.gg/SkE8mZ87",
+    icon: FaDiscord,
+  },
+  {
+    name: "Github",
+    link: "https://github.com/0xLabs-org/DeHarvest",
+    icon: FaGithub,
   },
 ];
