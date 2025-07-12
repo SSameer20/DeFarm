@@ -6,6 +6,7 @@ import "../styles/app.css";
 import { useAlert } from "../utils/context/AlertContext";
 import { airdropSteps, features } from "../utils/types";
 
+
 function App() {
   const { showAlert } = useAlert();
   return (
