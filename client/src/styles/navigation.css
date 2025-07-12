@@ -1,20 +1,20 @@
 /* Base Reset */
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 /* Navbar Container */
 .glass-navbar {
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
   background: transparent;
-  backdrop-filter: blur(1px);
-  -webkit-backdrop-filter: blur(12px);
+  /* backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(12px); */
   /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
   display: flex;
   justify-content: space-between;
@@ -66,15 +66,21 @@
   color: #fff;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .nav-menu {
-    display: none;
-  }
+.connect-btn {
+  background-color: #28a745; /* Green */
+  color: rgb(249, 245, 245);
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  font-weight: 500;
+}
 
-  .glass-navbar {
-    justify-content: center;
-  }
+.connect-btn:hover {
+  transform: scale(1.05);
+  background-color: #218838;
 }
 
 .connect-btn {
