@@ -12,23 +12,42 @@ function App() {
         <Hero />
       </div>
 
-      <div className="features">
+      <div className="feature-section">
         <h2
           style={{
-            gridColumn: "1/-1",
             textAlign: "center",
-            marginBottom: "2rem",
+            // marginBottom: "0.5rem",
             color: "white",
             fontSize: "2rem",
+            marginTop: "3rem",
+            fontWeight: "bold",
           }}
         >
-          Platform Features
+          Why Choose DeHarvest ?
         </h2>
-        {
-          features.map((item, index) => {
-            return <Card key={index} title={item.title} description={item.description}/>
-          })
-        }
+        <p
+          style={{
+            textAlign: "center",
+            marginBottom: "1rem",
+            color: "white",
+            fontSize: "18px",
+            opacity: "0.5",
+          }}
+        >
+          Building the market place for the next generation of sustainable
+          agriculture
+        </p>
+        <div className="features">
+          {features.map((item, index) => {
+            return (
+              <Card
+                key={index}
+                title={item.title}
+                description={item.description}
+              />
+            );
+          })}
+        </div>
       </div>
       <Footer />
     </div>
