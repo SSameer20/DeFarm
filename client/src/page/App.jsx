@@ -24,11 +24,15 @@ function App() {
         >
           Platform Features
         </h2>
-        {
-          features.map((item, index) => {
-            return <Card key={index} title={item.title} description={item.description}/>
-          })
-        }
+        {features.map((item, index) => {
+          return (
+            <Card
+              key={index}
+              title={item.title}
+              description={item.description}
+            />
+          );
+        })}
       </div>
       <Footer />
     </div>
