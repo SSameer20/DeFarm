@@ -33,7 +33,7 @@ export default function Hero() {
           scrambleChars=".:"
         >
           DeHarvest is the decentralized gateway to agricultural investment,
-          yield sharing, and farm-to-table commerce all powered by blockchain.
+          yield sharing and farm-to-table commerce all powered by blockchain.
         </ScrambledText>
 
         {/* Button */}
