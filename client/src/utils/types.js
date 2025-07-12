@@ -52,3 +52,26 @@ export const socialLinks = [
     icon: FaGithub,
   },
 ];
+
+export const airdropSteps = [
+  {
+    number: "1",
+    title: "Connect Wallet",
+    description:
+      "Connect your Solana wallet (Phantom, Solflare, or compatible)",
+    bgColor: "bg-green-200",
+  },
+  {
+    number: "2",
+    title: "Complete Tasks",
+    description:
+      "Follow our social media, join Discord, and verify your participation",
+    bgColor: "bg-teal-200",
+  },
+  {
+    number: "3",
+    title: "Claim Tokens",
+    description: "Receive your 2,500 HARVEST tokens directly to your wallet",
+    bgColor: "bg-lime-200",
+  },
+];
