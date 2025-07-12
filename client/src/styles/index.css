@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@theme {
+:root {
   --font-display: "Satoshi", "sans-serif";
   --breakpoint-sm: 380px;
   --breakpoint-md: 900px;
