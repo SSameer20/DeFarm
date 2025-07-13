@@ -1,5 +1,6 @@
 import "../styles/navigation.css";
 import { useAlert } from "../utils/context/AlertContext";
+import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
 function Navigation() {
   const { showAlert } = useAlert();
@@ -7,15 +8,15 @@ function Navigation() {
     <nav className="glass-navbar">
       <div className="logo">DeHarvest</div>
       <ul className="nav-menu">
-        <button
+        <WalletMultiButton
           className="connect-btn"
+          style={{ backgroundColor: "#28a745" }}
           onClick={() =>
             showAlert("wallet connection will enable soon", "info")
           }
         >
-          Connect
-        </button>
-
+          Connect Wallet
+        </WalletMultiButton>
       </ul>
     </nav>
   );
