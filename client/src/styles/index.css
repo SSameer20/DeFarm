@@ -1,10 +1,10 @@
 @import "tailwindcss";
-/* @theme {
+@theme {
   --font-display: "Satoshi", "sans-serif";
   --breakpoint-sm: 380px;
   --breakpoint-md: 900px;
-  --breakpoint-lg: 1280px; /* ← Rename this to avoid duplicate sm 
-/* }  */
+  --breakpoint-lg: 1280px;
+}
 
 body {
   width: 100vw;
