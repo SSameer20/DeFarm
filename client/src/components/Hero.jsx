@@ -13,6 +13,11 @@ export default function Hero() {
                       lg:items-start lg:justify-start lg:text-left lg:w-1/2 lg:h-1/2 lg:mx-10"
       >
         {/* Heading */}
+
+        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-100 text-red-900 font-semibold text-sm shadow-sm">
+          <span className="text-lg">🎯</span>
+          Airdrop will be available soon
+        </div>
         <ScrambledText
           className="cursor-pointer font-bold lg:text-4xl sm:text-3xl md:text-4xl"
           radius={20}
@@ -26,18 +31,19 @@ export default function Hero() {
 
         {/* Description */}
         <ScrambledText
-          className="cursor-pointer text-base sm:text-sm leading-relaxed"
+          className="cursor-pointer text-base lg:text-2xl leading-relaxed break-normal whitespace-normal
+"
           radius={20}
           duration={1.2}
           speed={0.5}
           scrambleChars=".:"
         >
           DeHarvest is the decentralized gateway to agricultural ecosystem,
-          yield sharing and farm-to-table supply chain management.
+          yield sharing and supply chain management.
         </ScrambledText>
 
         {/* Button */}
-        <button className="mt-4 px-6 py-3 bg-green-500 hover:bg-green-600 transition-colors text-white rounded-lg shadow-md">
+        <button className="mt-2 px-6 py-3 bg-green-500 hover:bg-green-600 transition-colors text-white rounded-lg shadow-md">
           Airdrop
         </button>
       </div>
