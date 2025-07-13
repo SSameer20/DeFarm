@@ -1,9 +1,13 @@
 import { AlertProvider } from "./AlertContext";
+import { WalletAdapterProvider } from "./WalletAdapters";
+import "@solana/wallet-adapter-react-ui/styles.css";
 
 export default function Context({ children }) {
   return (
     <>
-      <AlertProvider>{children}</AlertProvider>
+      <WalletAdapterProvider>
+        <AlertProvider>{children}</AlertProvider>
+      </WalletAdapterProvider>
     </>
   );
 }
