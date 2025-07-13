@@ -32,8 +32,8 @@ export default function Hero() {
           speed={0.5}
           scrambleChars=".:"
         >
-          DeHarvest is the decentralized gateway to agricultural investment,
-          yield sharing and farm-to-table commerce all powered by blockchain.
+          DeHarvest is the decentralized gateway to agricultural ecosystem,
+          yield sharing and farm-to-table supply chain management.
         </ScrambledText>
 
         {/* Button */}
