@@ -14,9 +14,7 @@ function Navigation() {
           onClick={() =>
             showAlert("wallet connection will enable soon", "info")
           }
-        >
-          Connect Wallet
-        </WalletMultiButton>
+        ></WalletMultiButton>
       </ul>
     </nav>
   );
