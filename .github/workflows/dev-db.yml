@@ -1,0 +1,38 @@
+name: Dev Database Migration
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: ${{ secrets.DEV_DATABASE_URL }}
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Generate Prisma Client
+        run: npx prisma generate
+
+      - name: Run Migrations
+        run: |
+          COMMIT_MSG=$(git log -1 --pretty=%B)
+          MIGRATION_NAME=$(echo "$COMMIT_MSG" | grep -oP "dev-deploy-\K[\w\-]+")
+          if [ -n "$MIGRATION_NAME" ]; then
+            npx prisma migrate dev --name dev-deploy-$MIGRATION_NAME --create-only
+            npx prisma migrate deploy
+          else
+            echo "No dev-deploy-* migration trigger found in commit message. Skipping."
+          fi
