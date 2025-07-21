@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   migrate:
@@ -21,7 +24,7 @@ jobs:
           node-version: 18
 
       - name: Install deps
-        run: npm ci
+        run: npm install
 
       - name: Generate Prisma Client
         run: npx prisma generate
